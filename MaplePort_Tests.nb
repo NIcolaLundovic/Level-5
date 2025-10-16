@@ -1,0 +1,291 @@
+Notebook[{
+Cell["Maple\[RightArrow]Mathematica Port: Tests", "Title"],
+Cell[BoxData@ToBoxes@HoldComplete[ SetDirectory@NotebookDirectory[]; Get["MaplePort.wl"]; ], "Input"],
+Cell["Run each cell to reproduce the Maple checks.", "Text"],
+Cell["Test 1: n = 12, maximalPart = 4", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 12; maximalPart = 4; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[3]] = ", partitions[[3]]];
+], "Input"],
+Cell["Test 2: n = 13, maximalPart = 5", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 13; maximalPart = 5; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[4]] = ", partitions[[4]]];
+], "Input"],
+Cell["Test 3: n = 14, maximalPart = 6", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 14; maximalPart = 6; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[5]] = ", partitions[[5]]];
+], "Input"],
+Cell["Test 4: n = 15, maximalPart = 6", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 15; maximalPart = 6; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[7]] = ", partitions[[7]]];
+], "Input"],
+Cell["Test 5: n = 17, maximalPart = 7", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 17; maximalPart = 7; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[9]] = ", partitions[[9]]];
+], "Input"],
+Cell["Test 6: n = 18, maximalPart = 6", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 18; maximalPart = 6; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 7: n = 19, maximalPart = 7", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 19; maximalPart = 7; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[9]] = ", partitions[[9]]];
+], "Input"],
+Cell["Test 8: n = 20, maximalPart = 7", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 20; maximalPart = 7; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 9: n = 21, maximalPart = 7", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 21; maximalPart = 7; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 10: n = 23, maximalPart = 8", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 23; maximalPart = 8; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[10]] = ", partitions[[10]]];
+], "Input"],
+Cell["Test 11: n = 24, maximalPart = 8", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 24; maximalPart = 8; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[12]] = ", partitions[[12]]];
+], "Input"],
+Cell["Test 12: n = 25, maximalPart = 8", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 25; maximalPart = 8; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 13: n = 26, maximalPart = 8", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 26; maximalPart = 8; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 14: n = 27, maximalPart = 9", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 27; maximalPart = 9; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]]; Print["partitions[[10]] = ", partitions[[10]]];
+], "Input"],
+Cell["Test 15: n = 28, maximalPart = 9", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 28; maximalPart = 9; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 16: n = 29, maximalPart = 9", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 29; maximalPart = 9; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 17: n = 30, maximalPart = 9", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 30; maximalPart = 9; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 18: n = 31, maximalPart = 10", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 31; maximalPart = 10; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[9]] = ", partitions[[9]]];
+], "Input"],
+Cell["Test 19: n = 33, maximalPart = 10", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 33; maximalPart = 10; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 20: n = 34, maximalPart = 10", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 34; maximalPart = 10; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 21: n = 35, maximalPart = 11", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 35; maximalPart = 11; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[4]] = ", partitions[[4]]]; Print["partitions[[10]] = ", partitions[[10]]];
+], "Input"],
+Cell["Test 22: n = 36, maximalPart = 11", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 36; maximalPart = 11; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[3]] = ", partitions[[3]]]; Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 23: n = 37, maximalPart = 11", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 37; maximalPart = 11; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[5]] = ", partitions[[5]]]; Print["partitions[[8]] = ", partitions[[8]]];
+], "Input"],
+Cell["Test 24: n = 38, maximalPart = 11", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 38; maximalPart = 11; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[6]] = ", partitions[[6]]];
+], "Input"],
+Cell["Test 25: n = 39, maximalPart = 12", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 39; maximalPart = 12; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[10]] = ", partitions[[10]]];
+], "Input"],
+Cell["Test 26: n = 41, maximalPart = 13", "Section"],
+Cell[BoxData@ToBoxes@HoldComplete[
+   n = 41; maximalPart = 13; setPartitionsResults[]; setbers[];;
+   matriX = ConstantArray[0, {2 r, s}];;
+   inputRX[]; inputSX[]; inputXS[];;
+   A = matriX; B = RowReduce[A]; rank = MatrixRank[B];;
+   T = fillTable[B, rank];;
+   Print["rank = ", rank];;
+   Print["T = ", T];;
+   Print["partitions[[13]] = ", partitions[[13]]];
+], "Input"]
+}]
